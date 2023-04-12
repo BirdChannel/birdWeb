@@ -1,0 +1,139 @@
+a,
+body,
+div,
+footer,
+h1,
+header,
+html {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'SimHei';
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #ececec;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    background-image: linear-gradient(to bottom right, #fee104, #fa709a);
+}
+
+.title {
+    width: 500px;
+    height: 40px;
+    margin: 0 auto;
+    padding-top: 5px;
+    color: #ececec;
+    font-size: 24px;
+}
+
+.notice {
+    margin: 10px;
+    padding: 5px;
+    background-color: #fa709a;
+    border: red solid 2px;
+    color: #ececec;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.webItem {
+    margin: 10px;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.webItem:hover {
+    color: #fa709a;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to bottom right, #fa709a, #9fd0ec);
+}
+
+.footerText {
+    position: absolute;
+    right: 10px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #444444;
+}
+
+@media screen and (max-width: 450px) {
+    body{
+        background-color: pink;
+    }
+
+    .header {
+        width: 100%;
+        height: 50px;
+        margin: 0;
+        background-image: none;
+        background-color: #fa709a;
+    }
+    
+    .title {
+        width: 150px;
+        height: 45px;
+        margin: 0 auto;
+        padding-top: 5px;
+        color: #ececec;
+        font-size: 14px;
+    }
+    
+    .notice {
+        margin: 10px;
+        padding: 5px;
+        background-color: #fa709a;
+        border: none;
+        color: #ececec;
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    .notice hr {
+        display: none;
+    }
+    
+    .webItem {
+        margin: 10px;
+        margin-left: 20px;
+        font-weight: 400;
+        font-size: 10px;
+    }
+    
+    .webItem:hover {
+        color: #fa709a;
+    }
+    
+    .footer {
+        width: 100%;
+        height: 50px;
+        background-image: none;
+        background-color: #fa709a;
+    }
+    
+    .footerText {
+        position: absolute;
+        right: 0;
+        padding-top: 30px;
+        font-size: 8px;
+        color: #000;
+    }
+}
