@@ -50,6 +50,17 @@ body {
     font-size: 15px;
 }
 
+.notice a {
+    display: inline;
+    color: #ececec;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.notice a:hover {
+    color: #bbbbbb;
+}
+
 .webItem {
     margin: 10px;
     margin-left: 20px;
@@ -109,6 +120,12 @@ body {
 
     .notice hr {
         display: none;
+    }
+
+    .notice a {
+        color: #ececec;
+        font-weight: 400;
+        font-size: 10px;
     }
     
     .webItem {
